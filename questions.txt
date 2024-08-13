@@ -1,52 +1,9 @@
-1. How many rows are there?
+1. What is the pdf about?
 
-2. How many different columns are there in the dataset? What are the names of these columns?
+2. what is a process?
 
-3. Are there any missing values in the dataset?
+3. What are the different states of a process?
 
-4. Can you display a brief summary of the columns in the dataset for me?
+4. Who is the current president of the United States?
 
-5. Generate a Kernel Density Estimation (KDE) plot of obesity among people with / without Coronary Heart Disease (CHD). Label the axes, add a legend, and comment on the main trends.
-
-6. Show the distribution of age of people with respect to Coronary Heart Disease (CHD). Label the axes, and comment on the principal trend observed.
-
-7. Plot a correlation heatmap, showing correlations among all the columns. Label the axes, and highlight the standout trends.
-
-8. Validate the following hypothesis using a T-test. Null Hypothesis: Higher levels of obesity do not increase the risk of CHD. Alternate Hypothesis: Higher levels of obesity increase the risk of CHD.
-
-9. Follow these steps to run a Logistic Regression model to predict the CHD variable:\
-1. Clean the dataset so it has no null values.\
-2. Preprocess the dataset so it is ready for use by a Logistic Regression model.\
-3. Run Logistic Regression to classify people into 1 (with CHD) or 0 (without CHD) with the following steps:\
-3a. Split the data into Train and Test sets. These datasets should not contain the CHD column.\
-3b. Train the model on the Train dataset. Make sure the model converges, so use as many iterations as necessary for that.\
-3c. Obtain y_pred by predicting on X_test and use a threshold to convert y_pred into binary values.\
-3d. Plot the Confusion Matrix, print the accuracy score between binary y_pred and y_test, and comment on the predictive performance of the model.
-
-10. Follow these steps to run a Binary Classification model of your choice from a list of options such as Decision Trees, Random Forests, XGBoost, and Support Vector Machines to predict the CHD variable:\
-1. Clean the dataset so it has no null values.\
-2. Preprocess the dataset so it is ready for use by the Binary Classification models.\
-3. Run Binary Classification to classify people into 1 (with CHD) or 0 (without CHD) with the following steps:\
-3a. Split the data into Train and Test sets. These datasets should not contain the CHD column.\
-3b. Train the model on the Train dataset. Make sure the model converges, so use as many iterations as necessary for that.\
-3c. Obtain y_pred by predicting on X_test and use a threshold to convert y_pred into binary values.\
-3d. Plot the Confusion Matrix, print the accuracy score between binary y_pred and y_test, and comment on the predictive performance of the model.\
-4. Compare the performance of each model, pick the best performing model and provide reasoning for why the model was selected.
-
-11. Follow these steps to run a Binary Classification Neural Network to predict the CHD variable:\
-1. Clean the dataset so it has no null values.\
-2. Preprocess the dataset so it is ready for use by a Binary Classification Neural Network.\
-3. Run Binary Classification to classify people into 1 (with CHD) or 0 (without CHD) with the following steps:\
-3a. Define the model architecture:\
-3.a.1. Three hidden layers with ReLU as activation function.\
-3.a.2. Dropout = 0.5.\
-3.a.3. Optimizer = adam.\
-3.a.4. Loss = binary_crossentropy.\
-3.a.5. Metrics = [accuracy].\
-3.a.6. Epochs = 30.\
-3.a.7. Batch Size = 32.\
-3b. Split the dataset into training, validation, and test sets (80% training, 10% validation, 10% test). These datasets should not contain the CHD column.\
-3c. Train the model on the Train dataset. Make sure the model converges, so use as many iterations as necessary for that.\
-3d. Predict the model on the Test dataset to see how the binary classification Neural Network generalized on unseen data.\
-3d. Obtain y_pred by predicting on X_test and use a threshold to convert y_pred into binary values.\
-3e. Plot the Confusion Matrix, print the accuracy score between binary y_pred and y_test, and comment on the predictive performance of the model.
+5. Tell me more about him.
